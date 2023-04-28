@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body id="root">
+    <script>
+      let h1Ref = React.createElement('div', {style:{margin: "50px "}},[React.createElement('h1', null,"Topics Covered"),
+      React.createElement('p', null,"The Following is the List of all the Topics we Covered we covered in the MDN Learning area "),
+      React.createElement('a', {href: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web"},"Getting Started with the Web"),
+      React.createElement('p', null,"Getting started with the web is a concise series introducing you to the practicalities of web development. You'll set up the tools you need to construct a simple webpage and publish your own simple code."),
+      React.createElement('a', {href: "https://developer.mozilla.org/en-US/docs/Learn/HTML"},"HTML -- Sturcturing the Web"),
+      React.createElement('p', null,"To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define."),
+      React.createElement('a', {href: "https://developer.mozilla.org/en-US/docs/Learn/CSS"},"Css -- Styling the Web"),
+      React.createElement('p', null,"Cascading Style Sheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.")
+      ]);
+      ReactDOM.render(h1Ref, document.getElementById('root'));
+      
+
+    </script>
+</body>
+</html>
